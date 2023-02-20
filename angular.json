@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PokeDeex": {
+    "pokedex": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "PokeDeex:build:production"
+              "browserTarget": "pokedex:build:production"
             },
             "development": {
-              "browserTarget": "PokeDeex:build:development"
+              "browserTarget": "pokedex:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PokeDeex:build"
+            "browserTarget": "pokedex:build"
           }
         },
         "test": {
