@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/poke-deex'),
+      dir: require('path').join(__dirname, './coverage/pokedex'),
       subdir: '.',
       reporters: [
         { type: 'html' },
